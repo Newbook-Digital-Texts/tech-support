@@ -1,5 +1,7 @@
-WEB STATS
-GEORGIAN TRANSCRIPTION DATA BACKUP (XML)
-TRANSCRIPTION FORMAT/TEMPLATE
-GDTC TECH TEAM RESOURCES
-MISCELLANEOUS (quarter goals, other links, etc)
+TBD:
+- transcription format/template for gdtc
+- georgian transcription data back up (include in update_georgian.md)
+- GDTC tech team RESOURCES
+- MISC (quarter goals, other links, etc)
+
+last two should go on staff pages or github?
