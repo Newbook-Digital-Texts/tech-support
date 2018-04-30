@@ -1,4 +1,4 @@
-The Autotagger is a tool that allows for the TXT file (data to be converted)
+The Autotagger is a tool that allows for the TXT file (data) to be converted
 into an XML file.
 
 **HOW TO USE THE AUTOTAGGER**
