@@ -15,11 +15,10 @@ Website located in the folder **public_html**
 **--> Change Link Page Information**
 (IN SERVER)
 - CHANGE directory to cd public_html/data/JMS
-- EDIT jms_idx.html
 - BACK UP existing file cp jms_idx.html jms_idx_YYYYMMDD.html
 - EDIT nano/pico jms_idx.html
-- GO to location of the diary to be updated -- #d38/d38
-- CHANGE old Diary_38_20180309lb.html to new name/date (4x)
+    - GO to location of the diary to be updated -- #d38/d38
+    - CHANGE old Diary_38_20180309lb.html to new name/date (4x)
 - Change the name to the current diary file: http://depts.washington.edu/newbook/data/JMS/jms_idx.html
 
 **--> Receiving Data from Diary Leads**
@@ -34,11 +33,9 @@ Website located in the folder **public_html**
 - RUN sh bak_rem.sh -- (script copies data to "old" and deletes generated files)
 - UPLOAD new diary data files (txt and xml); can use: sftp [account]@[name].u.washington.edu, Cyberduck, Filezilla
   - If using Filezilla: drag folders from location on local machine to public_html/data/d##
-- CHANGE DIRECTORY - one directory above - cd .. (**SPECIFIC DIRECTORY PATH**)
 - BACK UP existing file cp jms38_mak.sh jms38_mak_20180309.sh
 - EDIT jms38_mak.sh (**SPECIFIC**)
-- CHANGE old Diary_38_20180309lb.html to new name/date (**WHERE IS THIS LOCATED?** in old folder?)
--**REDUNDANT?** UPLOAD new diary data from local Desktop folder (sftp,Cyberduck,FileZilla)
+    - CHANGE old Diary_38_20180309lb.html to new name/date (**WHERE IS THIS LOCATED?** in old folder?)
 - RUN sh jms38_mak.sh -- (script generates html and tex files)
 - UPDATE wordlists, run sh wordlist_d37.sh
 
@@ -62,3 +59,4 @@ Revised 04/04/2018
 Revised 04/11/2018
 Revised 04/20/2018
 Revised 04/21/2018
+Revised 05/03/2018
