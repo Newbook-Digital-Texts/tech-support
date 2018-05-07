@@ -19,7 +19,7 @@ Website located in the folder **public_html**
 - EDIT nano/pico jms_idx.html
     - GO to location of the diary to be updated -- #d38/d38
     - CHANGE old Diary_38_20180309lb.html to new name/date (4x)
-- Change the name to the current diary file: http://depts.washington.edu/newbook/data/JMS/jms_idx.html
+    - Change the name to the current diary file: http://depts.washington.edu/newbook/data/JMS/jms_idx.html
 
 **--> Receiving Data from Diary Leads**
 - OPEN GMAIL to view message with linked data
@@ -34,16 +34,19 @@ Website located in the folder **public_html**
 - UPLOAD new diary data files (txt and xml); can use: sftp [account]@[name].u.washington.edu, Cyberduck, Filezilla
   - If using Filezilla: drag folders from location on local machine to public_html/data/d##
 - BACK UP existing file cp jms38_mak.sh jms38_mak_20180309.sh
-- EDIT jms38_mak.sh (**SPECIFIC**)
-    - CHANGE old Diary_38_20180309lb.html to new name/date (**WHERE IS THIS LOCATED?** in old folder?)
+- EDIT jms38_mak.sh (nano/pico)
+    - CHANGE old Diary_38_20180309lb.html to new name/date
 - RUN sh jms38_mak.sh -- (script generates html and tex files)
-- UPDATE wordlists, run sh wordlist_d37.sh
+- UPDATE wordlists, run sh wordlist_38.sh
 
 
 **--> Generate PDF file**
 - LOGIN to ovid, ssh ovid
 - CHANGE directory to d## (ex. d38) — public_html/data/JMS/d##
 - RUN pdflatex d##_MMDD.tex -- do this twice
+
+TO LOGOUT OF OVID, quit
+TO LOGOUT OF HOMER - exit, L
 
 **--> Creating Directory for New Diary**
 
