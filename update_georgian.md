@@ -12,7 +12,6 @@ to Server folder: [FOLDER NAME]
 - LOGIN to server (through one of the programs above)
 -
 **Put Transcriptions On GitHub (needs to be edited)**
-**FIRST...**
 - LOGIN to server
 - SELECT **S** for Shell in Menu
 - cd [FOLDER NAME]
